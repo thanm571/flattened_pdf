@@ -1,5 +1,8 @@
 # flattened_pdf
 
+### Setup
+RUN pip install -r requirements.txt
+
 ### Example
 docker run --rm `\` <br>
   -e INPUT_DIR=/custom/in `\` <br>

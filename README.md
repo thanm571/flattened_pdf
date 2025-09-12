@@ -1,5 +1,6 @@
-"# flattened_pdf" 
+# flattened_pdf
 
+### Example
 docker run --rm \
   -e INPUT_DIR=/custom/in \
   -e OUTPUT_DIR=/custom/out \

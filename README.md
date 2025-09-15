@@ -4,7 +4,7 @@
  docker build -t flattener-app .
 
 ### Example
-docker run --rm `\` <br>
+docker run --rm -it `\` <br>
   -e INPUT_DIR=/custom/in `\` <br>
   -e OUTPUT_DIR=/custom/out `\` <br>
   -e INPUT_DPI="250" `\` <br>

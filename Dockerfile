@@ -25,4 +25,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Default command (run your batch job)
-CMD ["python", "process.py"]
+CMD ["tail", "-f", "/dev/null"]
+#CMD ["python", "process.py"]

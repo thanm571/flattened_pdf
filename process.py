@@ -71,6 +71,11 @@ if __name__ == "__main__":
     input_dpi = os.getenv("INPUT_DPI", "150")
     input_quality = os.getenv("INPUT_QUALITY", "70")
 
+    print("input dir : "+input_dir)
+    print("output_dir : "+output_dir)
+    print("input_dpi : "+input_dpi)
+    print("input_quality : "+input_quality)
+
     batch_flatten_pdfs(
         input_folder=input_dir,
         output_folder=output_dir,
